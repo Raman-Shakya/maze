@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+table {
+    margin: 100px auto;
+}
+
+td {
+    width: 15px;
+    height: 15px;
+}
+
+tr:nth-child(1) td:nth-child(1) {
+    background: green;
+}
+tr:nth-last-child(1) td:nth-last-child(1) {
+    background: red;
+}
+
+tr:nth-child(1) td {
+    border-top: 1px solid black;
+}
+td:nth-child(1){
+    border-left: 1px solid black;
+}
+
+.rightBorder {
+    border-right: 1px solid black;
+}
+
+.bottomBorder {
+    border-bottom: 1px solid black;
+}
+
+.selected {
+    background: #8153ec
+}
+
+button {
+    display: block;
+    margin: auto;
+}
